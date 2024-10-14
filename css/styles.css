@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.active {
+  background-color: crimson;
+  color: white;
+}
+
+.home-content {
+  height: 100%;
+  width: 100%;
+}
+.home-content .header {
+  padding-top: 20px;
+  text-align: center;
+  color: red;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.home-content .img-container {
+  padding: 30px;
+  width: 100%;
+}
+.home-content .img-container .img {
+  width: 30%;
+  height: 100px;
+}
+.home-content .img-container p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+}
